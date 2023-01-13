@@ -1,4 +1,4 @@
-import { halfOf, multiplication, doSomething, flag, touch  } from "./lib.js";
+import { halfOf, multiplication, doSomething, flag, touch, iterateVar, iterateLet  } from "./lib.js";
 
 console.log("Division");
 console.log(halfOf(40));
@@ -49,3 +49,10 @@ const author = {
 
 console.log(author.printBooks());
 //arrow function end
+
+console.log("--- var ---");
+iterateVar();
+
+console.log("--- let ---");
+iterateLet();
+
