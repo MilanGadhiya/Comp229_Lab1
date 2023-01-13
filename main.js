@@ -38,3 +38,14 @@ console.log(car instanceof Car);
 console.log(car instanceof Vehicle);
 //class end
 
+//arrow function start
+const author = {
+    fullName: "Bob Alice",
+    books: ['Ikea', 'Harry Potter', 'The Hobbit', 'Heidi', 'Lolita'],
+    printBooks() {
+    this.books.forEach(book => console.log(book + ' by ' + this.fullName));
+    }
+};
+
+console.log(author.printBooks());
+//arrow function end
