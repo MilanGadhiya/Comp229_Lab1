@@ -11,3 +11,30 @@ console.log(doSomething('Milan'));
 console.log(flag);
 touch();
 console.log(flag);
+
+//class start
+class Vehicle {
+    constructor(wheels) {
+    this.wheels = wheels;
+    }
+    toString() {
+    return '(' + this.wheels + ' wheels)';
+    }
+}
+
+class Car extends Vehicle {
+    constructor(color) {
+    super(4);
+    this.color = color;
+    }
+    toString() {
+    return super.toString() + ' car colored: ' + this.color;
+    }
+}
+
+let car = new Car('red');
+console.log(car.toString());
+console.log(car instanceof Car);
+console.log(car instanceof Vehicle);
+//class end
+
