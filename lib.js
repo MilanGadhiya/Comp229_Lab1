@@ -55,4 +55,13 @@ export function userTopFriends(firstFriend, secondFriend,
     console.log(thirdFriend + '\n' + fourthFriend);
 }
 
+//Closures
+export function parent() {
+    const message = 'Hello Milan...!!';
+    function child() {
+    alert (message);
+    }
+    child();
+}
+
     

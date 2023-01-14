@@ -1,4 +1,4 @@
-import { halfOf, multiplication, doSomething, flag, touch, iterateVar, iterateLet, add, userFriends, userTopFriends } from "./lib.js";
+import { halfOf, multiplication, doSomething, flag, touch, iterateVar, iterateLet, add, userFriends, userTopFriends, parent } from "./lib.js";
 
 console.log("Division");
 console.log(halfOf(40));
@@ -65,3 +65,8 @@ userFriends('Milan', 'Shrush', 'Jhanvi', 'Isha');
 
 console.log("--- Spread ---");
 userTopFriends(...['Milan', 'Shrush', 'Jhanvi', 'Isha']);
+
+
+// parent();
+const childFN = parent();
+childFN();
