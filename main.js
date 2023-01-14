@@ -1,4 +1,4 @@
-import { halfOf, multiplication, doSomething, flag, touch, iterateVar, iterateLet  } from "./lib.js";
+import { halfOf, multiplication, doSomething, flag, touch, iterateVar, iterateLet, add, userFriends, userTopFriends } from "./lib.js";
 
 console.log("Division");
 console.log(halfOf(40));
@@ -56,3 +56,12 @@ iterateVar();
 console.log("--- let ---");
 iterateLet();
 
+console.log("--- Default ---");
+console.log(add(2));
+console.log(add(2, 3));
+
+console.log("--- Rest ---");
+userFriends('Milan', 'Shrush', 'Jhanvi', 'Isha');
+
+console.log("--- Spread ---");
+userTopFriends(...['Milan', 'Shrush', 'Jhanvi', 'Isha']);
