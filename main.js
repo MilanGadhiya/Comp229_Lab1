@@ -69,4 +69,5 @@ userTopFriends(...['Milan', 'Shrush', 'Jhanvi', 'Isha']);
 
 // parent();
 const childFN = parent();
+childFN;
 childFN();
